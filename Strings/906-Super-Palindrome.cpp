@@ -1,13 +1,27 @@
 class Solution {
 public:
-    bool isPalindrome(long long x) {
-        string s = to_string(x);
-        int i = 0, j = s.size() - 1;
+    bool isPalindrome(long long num) {
+        long long original = num, rev = 0;
 
-        while (i < j) {
-            if (s[i++] != s[j--]) return false;
+        while (num) {
+            rev = rev * 10 + num % 10;
+            num /= 10;
         }
-        return true;
+
+        return original == rev;
+    }
+
+    long long createPalindrome(long long num, bool odd) {
+        long long pal = num;
+
+        if (odd) num /= 10;
+
+        while (num) {
+            pal = pal * 10 + num % 10;
+            num /= 10;
+        }
+
+        return pal;
     }
 
     int superpalindromesInRange(string left, string right) {
@@ -16,35 +30,20 @@ public:
 
         int count = 0;
 
-        // Generate odd-length palindromes
-        for (int k = 1; k < 100000; k++) {
-            string s = to_string(k);
-            string rs = s;
-            reverse(rs.begin(), rs.end());
+        for (long long i = 1; i < 100000; i++) {
 
-            string pal = s + rs.substr(1);
-            long long root = stoll(pal);
-            long long square = root * root;
+            // Odd length palindrome root
+            long long root = createPalindrome(i, true);
+            long long sq = root * root;
 
-            if (square > R) break;
-
-            if (square >= L && isPalindrome(square))
+            if (sq <= R && sq >= L && isPalindrome(sq))
                 count++;
-        }
 
-        // Generate even-length palindromes
-        for (int k = 1; k < 100000; k++) {
-            string s = to_string(k);
-            string rs = s;
-            reverse(rs.begin(), rs.end());
+            // Even length palindrome root
+            root = createPalindrome(i, false);
+            sq = root * root;
 
-            string pal = s + rs;
-            long long root = stoll(pal);
-            long long square = root * root;
-
-            if (square > R) break;
-
-            if (square >= L && isPalindrome(square))
+            if (sq <= R && sq >= L && isPalindrome(sq))
                 count++;
         }
 
