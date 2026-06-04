@@ -8,7 +8,7 @@ public:
                 freq[x]++;
             }
         }
-
+//frequency denotes precedence//
         vector<int> ans;
 
         for (int i = 1; i <= 1000; i++) {
