@@ -7,6 +7,7 @@ public:
 
         for (int i = 0; i < s.size(); i++) {
             char c = s[i];
+            // s is the string size //
 
             if (isdigit(c)) {
                 num = num * 10 + (c - '0');
