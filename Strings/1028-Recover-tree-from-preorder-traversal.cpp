@@ -18,6 +18,7 @@ public:
 
         while (i < n) {
             int depth = 0;
+            //n is any number of value //
 
             while (i < n && traversal[i] == '-') {
                 depth++;
