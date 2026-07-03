@@ -1,5 +1,5 @@
 # LeetCode Solutions by Junaid
-
+start
 A collection of my LeetCode solutions written in C++.
 
 This repository serves as a personal archive of problems I have solved while learning Data Structures & Algorithms and preparing for technical interviews. The focus is on writing clean, efficient, and easy-to-understand solutions.
