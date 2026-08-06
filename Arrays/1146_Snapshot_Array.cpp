@@ -11,14 +11,3 @@
 // Vector to Store Snapshot Updates
 // Current Snapshot ID Variable
 
-// Public Access Specifier
-
-// Constructor
-// Initialize Snapshot Array
-// Resize Update Storage
-// Initialize Snapshot Counter
-
-// Set Function
-// Check Existing Update
-// Store New Value
-// Update Current Snapshot Value
