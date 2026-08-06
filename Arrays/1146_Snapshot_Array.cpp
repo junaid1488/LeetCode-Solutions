@@ -22,7 +22,3 @@
 // Check Existing Update
 // Store New Value
 // Update Current Snapshot Value
-
-// Snap Function
-// Increment Snapshot ID
-// Return Snapshot Number
