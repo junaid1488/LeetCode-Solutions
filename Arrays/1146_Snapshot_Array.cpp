@@ -7,11 +7,6 @@
 
 // SnapshotArray Class Definition
 
-// Constructor
-// Initialize Snapshot Array
-// Resize Update Storage
-// Initialize Snapshot Counter
-
 // Set Function
 // Check Existing Update
 // Store New Value
