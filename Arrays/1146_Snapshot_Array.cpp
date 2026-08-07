@@ -11,7 +11,3 @@
 // Find Required Snapshot
 // Handle Default Value
 // Return Stored Value
-
-// Main Function
-// Create Object
-// Call Member Functions
