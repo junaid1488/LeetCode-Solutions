@@ -14,10 +14,3 @@ public:
         else
             updates[index].push_back({curSnap, val});
     }
-
-    int snap() {
-        curSnap++;
-        return curSnap - 1;
-    }
-es[index].begin();
-
