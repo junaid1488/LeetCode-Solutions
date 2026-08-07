@@ -7,12 +7,6 @@
 
 // SnapshotArray Class Definition
 
-// Private Data Members
-// Vector to Store Snapshot Updates
-// Current Snapshot ID Variable
-
-// Public Access Specifier
-
 // Constructor
 // Initialize Snapshot Array
 // Resize Update Storage
