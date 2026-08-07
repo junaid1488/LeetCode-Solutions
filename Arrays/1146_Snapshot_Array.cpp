@@ -7,5 +7,3 @@ public:
         updates.resize(length);
         curSnap = 0;
     }
-
-    void set(int index, int val) {
