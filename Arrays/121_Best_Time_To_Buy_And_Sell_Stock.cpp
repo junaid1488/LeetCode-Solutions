@@ -6,12 +6,7 @@
 // Use Standard Namespace
 ublic Access Specifier
 
-// Constructor
-// Initialize Snapshot Array
-// Resize Update Storage
-// Initialize Snapshot Counter
-
-// Set Function
+nction
 // Check Existing Update
 // Store New Value
 // Update Current Snapshot Value
