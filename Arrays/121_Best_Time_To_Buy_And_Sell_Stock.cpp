@@ -4,11 +4,7 @@
 
 // Include Required Header Files
 // Use Standard Namespace
-
-// SnapshotArray Class Definition
-
-
-// Public Access Specifier
+ublic Access Specifier
 
 // Constructor
 // Initialize Snapshot Array
