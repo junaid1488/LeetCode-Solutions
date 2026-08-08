@@ -10,11 +10,6 @@ nction
 // Check Existing Update
 
 
-// Get Function
-// Perform Binary Search
-// Find Required Snapshot
-// Handle Default Value
-// Return Stored Value
 
 // Main Function
 // Create Object
