@@ -13,11 +13,7 @@ public:
             updates[index].back().second = val;
         else
             updates[index].push_back({curSnap, val});
-    }
-
-  
-
-    int get(int index, int snap_id) {
+    }  int get(int index, int snap_id) {
         int idx = upper_bound(
             updates[index].begin(),
             updates[index].end(),
