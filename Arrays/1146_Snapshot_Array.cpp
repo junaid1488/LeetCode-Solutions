@@ -6,8 +6,6 @@
 
 // Constructor
 // Initialize Snapshot Array
-// Allocate Update Storage
-// Initialize Snapshot Counter
 
 
 // Main Function
