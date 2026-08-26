@@ -10,9 +10,6 @@
 // Initialize Snapshot Counter
 
 
-// Snap Function
-// Create New Snapshot
-
 
 // Get Function
 // Search for Requested Snapshot
