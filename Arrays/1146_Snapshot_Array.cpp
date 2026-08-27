@@ -39,12 +39,7 @@ public:
 // Store Snapshot Updates
 // Track Current Snapshot ID
 
-// Public Access Specifier
 
-// Constructor
-// Initialize Snapshot Array
-// Allocate Update Storage
-// Initialize Snapshot Counter
 
 // Set Function
 // Check Current Snapshot Update
