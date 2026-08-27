@@ -33,10 +33,7 @@ public:
         return updates[index][idx - 1].second;
     }
 };
-// SnapshotArray Class Definition
 
-// Private Data Members
-// Store Snapshot Updates
 // Track Current Snapshot ID
 
 
