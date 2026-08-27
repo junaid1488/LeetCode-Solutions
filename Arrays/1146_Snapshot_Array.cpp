@@ -33,13 +33,3 @@ public:
         return updates[index][idx - 1].second;
     }
 };
-
-
-
-
-// Main Function
-// Create SnapshotArray Object
-// Perform Array Operations
-// Display Results
-
-// End of Program
