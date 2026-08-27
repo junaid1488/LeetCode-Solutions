@@ -5,12 +5,5 @@ class SnapshotArray {
 
 public:
   
-
-            updates[index].push_back({curSnap, val});
-    }
-
-    int get(int index, int snap_id) {
-  
-    
     }
 };
