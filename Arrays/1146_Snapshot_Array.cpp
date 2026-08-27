@@ -1,9 +1,4 @@
-// Author: Mohd Juned
-// Language: C++
-// Topic: Snapshot Array
 
-// Include Required Header Files
-// Use Standard Namespace
 class SnapshotArray {
     vector<vector<pair<int, int>>> updates;
     int curSnap;
