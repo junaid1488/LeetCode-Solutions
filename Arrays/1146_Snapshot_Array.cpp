@@ -6,12 +6,6 @@ public:
     SnapshotArray(int length) {
         updates.resize(length);
         curSnap = 0;
-    }
-
-        else
-            updates[index].push_back({curSnap, val});
-    }
-
     int snap() {
         curSnap++;
         return curSnap - 1;
