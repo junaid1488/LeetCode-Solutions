@@ -3,10 +3,7 @@ class SnapshotArray {
     int curSnap;
 
 public:
-    SnapshotArray(int length) {
-        updates.resize(length);
-        curSnap = 0;
-    }
+    SnapshotArray(int length) 
 
     int get(int index, int snap_id) {
         int idx = upper_bound(
