@@ -1,4 +1,27 @@
 #include <iostream>
+#include <stack>
+using namespace std;
+
+int main() {
+    string s = "{[()]}";
+    stack<char> st;
+
+    for (char c : s) {
+        if (c == '(' || c == '[' || c == '{')
+            st.push(c);
+        else {
+            if (st.empty() ||
+                (c == ')' && st.top() != '(') ||
+                (c == ']' && st.top() != '[') ||
+                (c == '}' && st.top() != '{'))
+                return cout << "Invalid", 0;
+            st.pop();
+        }
+    }
+
+    cout << (st.empty() ? "Valid" : "Invalid");
+    return 0;
+}#include <iostream>
 #include <unordered_map>
 using namespace std;
 
