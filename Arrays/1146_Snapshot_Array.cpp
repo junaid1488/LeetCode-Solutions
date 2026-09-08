@@ -4,11 +4,6 @@ using namespace std;
 int main() {
     int n = 5;
 
-    if (n <= 2) {
-   
-    }
-
-    int a = 1, b = 2;
 
     for (int i = 3; i <= n; i++)
         a = b, b = a + b;
