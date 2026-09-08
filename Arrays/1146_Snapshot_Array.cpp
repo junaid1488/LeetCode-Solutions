@@ -1,9 +1,6 @@
 #include <iostream>
 using namespace std;
-}#include <iostream>
-#include <vector>
-#include <algorithm>
-using namespace std;
+
 
 int main() {
     vector<int> a = {-2,1,-3,4,-1,2,1,-5,4};
