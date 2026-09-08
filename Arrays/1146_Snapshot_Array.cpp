@@ -7,10 +7,7 @@ int main() {
 
     int sum = a[0], best = a[0];
 
-    for (int i = 1; i < a.size(); i++) {
-        sum = max(a[i], sum + a[i]);
-        best = max(best, sum);
-    }
+   
 
     cout << "Maximum Subarray Sum: " << best;
     return 0;
