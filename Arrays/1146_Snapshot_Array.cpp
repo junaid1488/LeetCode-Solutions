@@ -1,8 +1,5 @@
 #include <iostream>
 using namespace std;
-
-    cout << "Ways: " << b;
-    return 0;
 }#include <iostream>
 #include <vector>
 #include <algorithm>
