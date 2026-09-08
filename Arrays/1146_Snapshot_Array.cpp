@@ -8,12 +8,6 @@ int main() {
 }#include <iostream>
 #include <vector>
 #include <algorithm>
-using namespace std;
-
-
-    sort(a.begin(), a.end());
-
-    vector<vector<int>> ans;
 
     for (auto x : a) {
         if (ans.empty() || ans.back()[1] < x[0])
