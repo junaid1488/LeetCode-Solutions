@@ -1,10 +1,6 @@
 #include <iostream>
 using namespace std;
 
-
-    for (int i = 3; i <= n; i++)
-        a = b, b = a + b;
-
     cout << "Ways: " << b;
     return 0;
 }#include <iostream>
