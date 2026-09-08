@@ -1,9 +1,6 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-    int n = 5;
-
 
     for (int i = 3; i <= n; i++)
         a = b, b = a + b;
