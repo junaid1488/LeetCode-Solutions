@@ -10,10 +10,7 @@ int main() {
 #include <algorithm>
 
     for (auto x : a) {
-        if (ans.empty() || ans.back()[1] < x[0])
-            ans.push_back(x);
-        else
-            ans.back()[1] = max(ans.back()[1], x[1]);
+       
     }
 
     for (auto x : ans)
