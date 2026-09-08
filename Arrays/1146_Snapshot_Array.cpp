@@ -10,8 +10,6 @@ int main() {
 #include <algorithm>
 using namespace std;
 
-int main() {
-    vector<vector<int>> a = {{1,3},{2,6},{8,10},{9,12}};
 
     sort(a.begin(), a.end());
 
