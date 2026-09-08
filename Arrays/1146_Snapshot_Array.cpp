@@ -5,8 +5,7 @@ int main() {
     int n = 5;
 
     if (n <= 2) {
-        cout << n;
-        return 0;
+   
     }
 
     int a = 1, b = 2;
