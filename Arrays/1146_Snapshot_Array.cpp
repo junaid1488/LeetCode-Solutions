@@ -1,14 +1,5 @@
 #include <iostream>
 using namespace std;
-
-
-int main() {
-
-    return 0;
-}#include <iostream>
-#include <vector>
-#include <algorithm>
-
     for (auto x : a) {
        
     }
