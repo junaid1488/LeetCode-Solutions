@@ -1,13 +1,5 @@
 #include <iostream>
 using namespace std;
-    for (auto x : a) {
-       
-    }
-
-    for (auto x : ans)
-        cout << "[" << x[0] << "," << x[1] << "] ";
-
-    return 0;
 }#include <iostream>
 #include <stack>
 using namespace std;
