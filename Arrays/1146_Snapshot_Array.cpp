@@ -12,9 +12,7 @@ int main() {
         if (c == '(' || c == '[' || c == '{')
             st.push(c);
         else {
-            if (st.empty() ||
-                (c == ')' && st.top() != '(') ||
-                (c == ']' && st.top() != '[') ||
+            if (st.empty() |= '[') ||
                 (c == '}' && st.top() != '{'))
                 return cout << "Invalid", 0;
             st.pop();
