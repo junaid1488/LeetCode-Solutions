@@ -10,12 +10,6 @@ int main() {
 
     for (char c : s) {
 
-    cout << (st.empty() ? "Valid" : "Invalid");
-    return 0;
-}#include <iostream
-int main() {
-
-    for (int i = 0; i < s.size(); i++
-    cout << "Integer: " << ans;
+    cout << (st.empty() ? "Valid" : "Invalid")
     return 0;
 }
