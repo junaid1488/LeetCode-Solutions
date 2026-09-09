@@ -9,13 +9,6 @@ int main() {
     stack<char> st;
 
     for (char c : s) {
-        if (c == '(' || c == '[' || c == '{')
-            st.push(c);
-        else {
-    
-            st.pop();
-        }
-    }
 
     cout << (st.empty() ? "Valid" : "Invalid");
     return 0;
