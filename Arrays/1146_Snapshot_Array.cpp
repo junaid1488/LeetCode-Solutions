@@ -29,10 +29,7 @@ int main() {
 
     int ans = 0;
 
-    for (int i = 0; i < s.size(); i++)
-        ans += (i + 1 < s.size() && val[s[i]] < val[s[i + 1]])
-              ? -val[s[i]] : val[s[i]];
-
+    for (int i = 0; i < s.size(); i++
     cout << "Integer: " << ans;
     return 0;
 }
