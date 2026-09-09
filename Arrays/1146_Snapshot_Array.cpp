@@ -23,10 +23,7 @@ int main() {
 
     cout << (st.empty() ? "Valid" : "Invalid");
     return 0;
-}#include <iostream>
-#include <unordered_map>
-using namespace std;
-
+}#include <iostream
 int main() {
     string s = "MCMXCIV";
     unordered_map<char, int> val = {
