@@ -1,12 +1,7 @@
 #include <iostream>
 using namespace std;
 }#include <iostream>
-#include <stack>
-using namespace std;
-
-int main() {
-    
-
+#include <stack
     cout << (st.empty() ? "Valid" : "Invalid")
     return 0;
 }
