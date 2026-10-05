@@ -4,4 +4,4 @@ public:
         int n = nums.size();
         k %= n;
 
-        reverse(nums.begin(), nums.end())
+    
