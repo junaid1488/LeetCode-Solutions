@@ -9,4 +9,3 @@ public:
         reverse(nums.begin() + k, nums.end());
     }
 };
-//rotate arrayy.cpp output show when you run on the compiler //
