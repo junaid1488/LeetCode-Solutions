@@ -5,9 +5,7 @@ public:
 
         for (auto &arr : nums) {
             for (int x : arr) {
-                freq[x]++;
-            }
-        }
+                
 
         return ans;
     }
