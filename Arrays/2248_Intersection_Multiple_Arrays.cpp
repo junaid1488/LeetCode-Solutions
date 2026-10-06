@@ -11,8 +11,7 @@ public:
 //frequency denotes precedence//
         vector<int> ans;
 
-        for (int i = 1; i <= 1000; i++) {
-            
+    
 
         return ans;
     }
