@@ -4,9 +4,6 @@ public:
         vector<int> freq(1001, 0);
 
         for (auto &arr : nums) {
-            for (int x : arr) {
-                
-
-        return ans;
+                 return ans;
     }
 };
