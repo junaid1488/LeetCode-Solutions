@@ -8,10 +8,6 @@ public:
                 freq[x]++;
             }
         }
-//frequency denotes precedence//
-        vector<int> ans;
-
-    
 
         return ans;
     }
