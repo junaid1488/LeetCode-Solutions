@@ -13,9 +13,7 @@ public:
 
         for (int i = 1; i <= 1000; i++) {
             if (freq[i] == nums.size()) {
-                ans.push_back(i);
-            }
-        }
+                
 
         return ans;
     }
