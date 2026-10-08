@@ -9,10 +9,7 @@ public:
         for (int i = 0; i < n; i++) {
             ans[i] = prefix;
             prefix *= nums[i];
-        }
-
-        int suffix = 1;
-        }
+          }
 
         return ans;
     }
