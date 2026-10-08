@@ -12,8 +12,6 @@ public:
         }
 
         int suffix = 1;
-        for (int i = n - 1; i >= 0; i--) {
-            
         }
 
         return ans;
