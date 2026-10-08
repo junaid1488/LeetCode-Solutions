@@ -7,8 +7,7 @@ public:
 
         int prefix = 1;
         for (int i = 0; i < n; i++) {
-            ans[i] = prefix;
-        
+             
           }
 
         return ans;
