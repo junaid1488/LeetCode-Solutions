@@ -5,8 +5,7 @@ public:
 
         vector<int> ans(n, 1);
 
-        int prefix = 1;
-        
+            
           }
 
         return ans;
