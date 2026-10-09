@@ -12,7 +12,7 @@ public:
     }
 
     int reserve() {
-        int seat = pq.top();
+        
         pq.pop();
         return seat;
     }
