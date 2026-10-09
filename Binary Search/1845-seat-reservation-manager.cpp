@@ -5,8 +5,6 @@ class SeatManager {
         greater<int>
     > pq;
 
-public:
-    SeatManager(int n) {
 
     void unreserve(int seatNumber) {
         pq.push(seatNumber);
