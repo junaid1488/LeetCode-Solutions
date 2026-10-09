@@ -9,10 +9,6 @@ public:
     SeatManager(int n) {
         for(int i = 1; i <= n; i++)
             pq.push(i);
-    }
-
-    int reserve() {
-
 
     }
 
