@@ -12,8 +12,7 @@ public:
     }
 
     int reserve() {
-        
-        pq.pop();
+
 
     }
 
