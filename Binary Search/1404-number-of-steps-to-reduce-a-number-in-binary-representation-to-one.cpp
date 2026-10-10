@@ -10,7 +10,7 @@ public:
 
             if(bit == 1) {
                 ans += 2;
-                carry = 1;
+        
             }
             else {
                 ans += 1;
