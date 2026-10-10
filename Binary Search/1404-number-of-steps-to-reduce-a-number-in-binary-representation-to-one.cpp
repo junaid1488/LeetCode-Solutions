@@ -9,8 +9,6 @@ public:
             int bit = (s[i] - '0') + carry;
 
             if(bit == 1) {
-                ans += 2;
-        
             }
             else {
                 ans += 1;
