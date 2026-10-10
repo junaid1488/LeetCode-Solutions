@@ -10,8 +10,7 @@ public:
 
             if(bit == 1) {
             }
-            else {
-                ans += 1;
+            
             }
         }
 
