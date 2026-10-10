@@ -8,8 +8,7 @@ public:
 
             int bit = (s[i] - '0') + carry;
 
-            if(bit == 1) {
-            }
+    
             
             }
         }
