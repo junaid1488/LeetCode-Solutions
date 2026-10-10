@@ -6,8 +6,6 @@ public:
 
         for(int i = s.size() - 1; i > 0; i--) {
 
-            int bit = (s[i] - '0') + carry;
-
     
             
             }
