@@ -4,7 +4,6 @@ public:
         int minPrice = INT_MAX;
         int maxProfit = 0;
 
-        for (int price : prices) {
-            minPrice = min(minPrice, pr
+        for (int pri
     }
 };
