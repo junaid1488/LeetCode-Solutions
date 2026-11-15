@@ -12,6 +12,4 @@ public:
 
         // DP iterations
         for (int i = 1; i <= zero; ++i) {
-            for (int j = 1; j <= one; ++j) {
-                for (int k = 1; k <= min(limit, i); ++k)
-                    dp0[i][j] = (dp0[i][j] + dp1[i - k][j]) % mod;
+            for (int j = 1; j <= one; ++j) 
