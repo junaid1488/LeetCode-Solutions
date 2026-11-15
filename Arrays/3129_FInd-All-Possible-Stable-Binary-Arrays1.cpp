@@ -17,9 +17,4 @@ public:
                     dp0[i][j] = (dp0[i][j] + dp1[i - k][j]) % mod;
                 for (int k = 1; k <= min(limit, j); ++k)
                     dp1[i][j] = (dp1[i][j] + dp0[i][j - k]) % mod;
-            }
-        }
-
-        return (dp0[zero][one] + dp1[zero][one]) % mod;
-    }
-};
+    
