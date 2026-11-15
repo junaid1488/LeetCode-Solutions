@@ -15,6 +15,3 @@ public:
             for (int j = 1; j <= one; ++j) {
                 for (int k = 1; k <= min(limit, i); ++k)
                     dp0[i][j] = (dp0[i][j] + dp1[i - k][j]) % mod;
-                for (int k = 1; k <= min(limit, j); ++k)
-                    dp1[i][j] = (dp1[i][j] + dp0[i][j - k]) % mod;
-    
