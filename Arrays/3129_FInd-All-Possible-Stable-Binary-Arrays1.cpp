@@ -9,7 +9,3 @@ public:
         // Base cases: only zeros or only ones => only one string if len <= min(limit, zero/one)
         for (int i = 1; i <= min(zero, limit); ++i) dp0[i][0] = 1;
         for (int j = 1; j <= min(one, limit); ++j) dp1[0][j] = 1;
-
-        // DP iterations
-        for (int i = 1; i <= zero; ++i) {
-            for (int j = 1; j <= one; ++j) 
